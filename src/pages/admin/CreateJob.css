@@ -1,0 +1,39 @@
+.part{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.input{
+    width: 32vw;
+    margin: 5px 0;
+}
+.createJob{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.buttons{
+    margin: 10px auto;
+}
+.button-cancel{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    width: auto;
+    border: solid 1px rgb(156, 152, 152);
+    border-radius: 10px;
+
+}
+.button-submit{
+    background-color:rgb(18, 97, 245);
+    padding: 10px 20px;
+    width: auto;
+    border: none;
+    margin-left: 20px;
+    border-radius: 10px;
+
+
+}
