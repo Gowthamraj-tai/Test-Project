@@ -11,12 +11,12 @@ const ListJob = () => {
     <div>
         <table border={1}>
             <thead>
-            {data&&(
+            {/* {data&&(
             <div>
                 {Object.keys(data[0]).map(data=><td>{data}</td>)}
             </div>
             )
-            }
+            } */}
             </thead>
             <tbody>
                 {data?.map((item)=>
